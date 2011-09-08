@@ -13,3 +13,9 @@ projects[cmtls_event][download][url] = "http://github.com/communitytools/Communi
 projects[cmtls_event][type] = "module"
 projects[cmtls_event][subdir] = "cmtls/applications"
 projects[cmtls_event][version] = "2.0-alpha1"
+
+projects[cmtls_event][download][type] = "git"
+projects[cmtls_event][download][url] = "http://github.com/communitytools/Community-Tools-Map.git"
+projects[cmtls_event][type] = "module"
+projects[cmtls_event][subdir] = "cmtls/applications"
+projects[cmtls_event][version] = "2.0-alpha1"
