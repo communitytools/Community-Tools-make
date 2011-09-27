@@ -10,8 +10,8 @@ projects[multiform][version] = "1.0-beta2"
 
 projects[plupload][version] = "1.0-beta3"
 
-;projects[cmtls_event][download][type] = "git"
-;projects[cmtls_event][download][url] = "http://github.com/communitytools/Community-Tools-Media.git"
-;projects[cmtls_event][type] = "module"
-;projects[cmtls_event][subdir] = "cmtls/applications"
-;projects[cmtls_event][version] = "2.0-alpha1"
+projects[cmtls_event][download][type] = "git"
+projects[cmtls_event][download][url] = "http://github.com/communitytools/Community-Tools-Media.git"
+projects[cmtls_event][type] = "module"
+projects[cmtls_event][subdir] = "cmtls/applications"
+projects[cmtls_event][version] = "2.0-alpha1"
