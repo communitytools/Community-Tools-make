@@ -23,6 +23,7 @@ projects[media][version] = "1.0-beta5"
 projects[gmap][version] = "1.x-dev"
 
 projects[location][version] = "3.x-dev"
+projects[location][patch][alter_hook][url] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.x/location-element-alter-hook.patch"
 
 projects[menu_block][version] = "2.2"
 
