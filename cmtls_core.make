@@ -16,8 +16,6 @@ projects[context][version] = "3.0-beta1"
 
 projects[entity][version] = "1.0-beta10"
 
-projects[features][version] = "1.0-beta3"
-
 projects[media][version] = "1.0-beta5"
 
 projects[gmap][version] = "1.x-dev"
@@ -38,8 +36,6 @@ projects[og_node_link][version] = "1.0"
 projects[og_views][version] = "1.x-dev"
 
 projects[pathauto][version] = "1.0-rc2"
-
-projects[strongarm][version] = "2.0-beta2"
 
 projects[token][version] = "1.0-beta5"
 
