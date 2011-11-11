@@ -16,8 +16,6 @@ projects[context][version] = "3.0-beta1"
 
 projects[entity][version] = "1.0-beta10"
 
-projects[media][version] = "1.0-beta5"
-
 projects[gmap][version] = "1.x-dev"
 
 projects[location][version] = "3.x-dev"
@@ -42,6 +40,8 @@ projects[token][version] = "1.0-beta5"
 projects[views][version] = "3.x-dev"
 
 projects[wysiwyg][version] = "2.1"
+
+projects[media][version] = "1.0-beta5"
 
 ; CT Core
 projects[cmtls][download][type] = "git"
