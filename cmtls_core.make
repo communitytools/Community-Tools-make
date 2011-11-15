@@ -43,6 +43,8 @@ projects[wysiwyg][version] = "2.1"
 
 projects[media][version] = "1.0-beta5"
 
+projects[ds][version] = "1.4"
+
 ; CT Core
 projects[cmtls][download][type] = "git"
 projects[cmtls][download][url] = "http://github.com/communitytools/Community-Tools-Core.git"
