@@ -6,20 +6,20 @@ projects[drupal][version] = "7.9"
 
 ; Modules
 
-projects[advanced_help][version] = "1.0-beta1"
+projects[advanced_help][version] = "1.0"
 
 projects[ajax_comments][version] = "1.x-dev"
 
 projects[ctools][version] = "1.x-dev"
 
-projects[context][version] = "3.0-beta1"
+projects[context][version] = "3.0-beta2"
 
-projects[entity][version] = "1.0-beta10"
+projects[entity][version] = "1.0-rc1"
 
 projects[gmap][version] = "1.x-dev"
 
 projects[location][version] = "3.x-dev"
-projects[location][patch][alter_hook][url] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.x/location-element-alter-hook.patch"
+;projects[location][patch][alter_hook][url] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.x/location-element-alter-hook.patch"
 
 projects[menu_block][version] = "2.2"
 
@@ -33,15 +33,15 @@ projects[og_node_link][version] = "1.0"
 
 projects[og_views][version] = "1.x-dev"
 
-projects[pathauto][version] = "1.0-rc2"
+projects[pathauto][version] = "1.0"
 
-projects[token][version] = "1.0-beta5"
+projects[token][version] = "1.0-beta7"
 
 projects[views][version] = "3.x-dev"
 
 projects[wysiwyg][version] = "2.1"
 
-projects[media][version] = "1.0-beta5"
+projects[media][version] = "1.0-rc2"
 
 projects[ds][version] = "1.4"
 

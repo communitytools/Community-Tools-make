@@ -4,7 +4,7 @@ includes[remote] = "https://raw.github.com/communitytools/Community-Tools-make/7
 ; Modules
 projects[media_browser_plus][version] = "1.0-beta3"
 
-projects[media_gallery][version] = "1.0-beta6"
+projects[media_gallery][version] = "1.0-beta7"
 
 projects[multiform][version] = "1.0-beta2"
 
