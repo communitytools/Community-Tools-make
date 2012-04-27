@@ -1,0 +1,20 @@
+diff --git a/rules.install b/rules.install
+index ce72c81..21526e3 100644
+--- a/rules.install
++++ b/rules.install
+@@ -51,6 +51,7 @@ function rules_schema() {
+         'length' => 127,
+         'not null' => TRUE,
+         'description' => 'The name of the plugin of this configuration.',
++        'default' => '',
+       ),
+       'active' => array(
+         'description' => 'Boolean indicating whether the configuration is active. Usage depends on how the using module makes use of it.',
+@@ -209,6 +210,7 @@ function rules_update_7200() {
+         'length' => 127,
+         'not null' => TRUE,
+         'description' => 'The name of the plugin of this configuration.',
++        'default' => '',
+       ),
+       'active' => array(
+         'description' => 'Boolean indicating whether the configuration is active. Usage depends on how the using module makes use of it.',
