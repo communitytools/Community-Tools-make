@@ -62,8 +62,6 @@ projects[media][version] = "1.0"
 projects[ds][version] = "1.5"
 
 projects[fb][version] = "3.x-dev"
-projects[fb][download][type] = "git"
-projects[fb][revision] = "3f6922b"
 projects[fb][patch][fb-1011912_1][url] = "http://drupal.org/files/issues/fb-1011912_1.patch"
 
 projects[module_filter][version] = "1.6"
@@ -82,20 +80,20 @@ projects[delta][version] = "3.x-dev"
 
 ; CT Core
 projects[cmtls][download][type] = "git"
-projects[cmtls][download][tag] = "7.x-2.0-alpha1"
+projects[cmtls][download][tag] = "7.x-2.0-alpha2"
 projects[cmtls][download][url] = "http://github.com/communitytools/Community-Tools-Core.git"
 projects[cmtls][type] = "module"
-projects[cmtls][version] = "2.0-alpha1"
+projects[cmtls][version] = "2.0-alpha2"
 
 ; Themes
 projects[omega][version] = "3.1"
 
 ; CT theme
 projects[cmtls_base][download][type] = "git"
-projects[cmtls_base][download][tag] = "7.x-2.0-alpha1"
+projects[cmtls_base][download][tag] = "7.x-2.0-alpha2"
 projects[cmtls_base][download][url] = "http://github.com/communitytools/Community-Tools-Base-theme.git"
 projects[cmtls_base][type] = "theme"
-projects[cmtls_base][version] = "2.0-alpha1"
+projects[cmtls_base][version] = "2.0-alpha2"
 
 ; Libraries
 libraries[ckeditor][download][type] = "file"
