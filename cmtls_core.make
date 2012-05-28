@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.12"
+projects[drupal][version] = "7.14"
 
 ; Modules
 
@@ -59,10 +59,13 @@ projects[wysiwyg][version] = "2.1"
 
 projects[media][version] = "1.0"
 
+projects[media_youtube][version] = "1.0-beta3"
+
+projects[media_vimeo][version] = "1.0-beta5"
+
 projects[ds][version] = "1.5"
 
 projects[fb][version] = "3.x-dev"
-projects[fb][patch][fb-1011912_1][url] = "http://drupal.org/files/issues/fb-1011912_1.patch"
 
 projects[module_filter][version] = "1.6"
 
@@ -78,26 +81,32 @@ projects[logintoboggan][version] = "1.3"
 
 projects[delta][version] = "3.x-dev"
 
+projects[i18n][version] = "1.5"
+
+projects[variable][version] = "1.2"
+
+projects[draggableviews][version] = "2.0-beta1"
+
 ; CT Core
 projects[cmtls][download][type] = "git"
-projects[cmtls][download][tag] = "7.x-2.0-alpha2"
 projects[cmtls][download][url] = "http://github.com/communitytools/Community-Tools-Core.git"
+projects[cmtls][download][tag] = "7.x-2.0-beta1"
+projects[cmtls][version] = "2.0-beta1"
 projects[cmtls][type] = "module"
-projects[cmtls][version] = "2.0-alpha2"
 
 ; Themes
 projects[omega][version] = "3.1"
 
 ; CT theme
 projects[cmtls_base][download][type] = "git"
-projects[cmtls_base][download][tag] = "7.x-2.0-alpha2"
 projects[cmtls_base][download][url] = "http://github.com/communitytools/Community-Tools-Base-theme.git"
+projects[cmtls_base][download][tag] = "7.x-2.0-beta1"
+projects[cmtls_base][version] = "2.0-beta1"
 projects[cmtls_base][type] = "theme"
-projects[cmtls_base][version] = "2.0-alpha2"
 
 ; Libraries
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
 
-libraries[facebook-sdk-php][download][type] = "file"
-libraries[facebook-sdk-php][download][url] = "https://github.com/facebook/php-sdk/tarball/v3.1.1"
+libraries[facebook-php-sdk][download][type] = "file"
+libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/php-sdk/tarball/v3.1.1"
