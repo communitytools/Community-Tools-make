@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.14"
+projects[drupal][version] = "7.15"
 
 ; Modules
 
@@ -28,7 +28,7 @@ projects[google_analytics][version] = "1.2"
 
 projects[references][version] = "2.0"
 
-projects[og][version] = "1.3"
+projects[og][version] = "1.4"
 
 projects[og_node_link][version] = "1.0"
 
@@ -86,6 +86,16 @@ projects[i18n][version] = "1.5"
 projects[variable][version] = "1.2"
 
 projects[draggableviews][version] = "2.0-beta1"
+
+projects[nice_menus][version] = "2.1"
+
+projects[flag][version] = "2.0-beta7"
+
+projects[views_bulk_operations][version] = "3.0-rc1"
+
+projects[captcha][version] = "1.0-beta2"
+
+projects[hidden_captcha][version] = "1.0"
 
 ; CT Core
 projects[cmtls][download][type] = "git"

@@ -38,7 +38,7 @@ projects[cmtls_map][type] = "module"
 ; Media
 projects[media_browser_plus][version] = "1.0-beta3"
 
-projects[media_gallery][version] = "1.0-beta7"
+projects[media_gallery][version] = "1.0-beta8"
 
 projects[multiform][version] = "1.0"
 
