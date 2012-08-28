@@ -66,6 +66,7 @@ projects[media_vimeo][version] = "1.0-beta5"
 projects[ds][version] = "1.5"
 
 projects[fb][version] = "3.x-dev"
+projects[fb][patch][missing-link][url] = "http://drupal.org/files/fb-1144926-the_missing_link-15.patch"
 
 projects[module_filter][version] = "1.6"
 
