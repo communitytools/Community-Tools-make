@@ -42,6 +42,7 @@ projects[cache_actions][version] = "2.0-alpha4"
 
 projects[rules][version] = "2.1"
 projects[rules][patch][rules.schema-default.patch][url] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.x/rules.schema-default.patch"
+projects[rules][patch][rules.variable-substitution-in-direct-input-mode.patch][url] = "http://drupal.org/files/1547160-9-rules-variables-direct-input.patch"
 
 projects[realname][version] = "1.0-rc2"
 
