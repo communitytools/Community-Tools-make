@@ -16,7 +16,7 @@ projects[ctools][version] = "1.0"
 
 projects[devel][version] = "1.2"
 
-projects[context][version] = "3.0-beta2"
+projects[context][version] = "3.0-beta4"
 
 projects[entity][version] = "1.0-rc2"
 
