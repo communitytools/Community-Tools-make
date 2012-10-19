@@ -39,6 +39,7 @@ projects[cmtls_map][type] = "module"
 projects[media_browser_plus][version] = "1.0-beta3"
 
 projects[media_gallery][version] = "1.0-beta8"
+projects[media_gallery][patch][all-files-download][url] = "http://drupal.org/files/media_gallery-all_files_download-1817552-1.patch"
 
 projects[multiform][version] = "1.0"
 
