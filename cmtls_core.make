@@ -101,6 +101,11 @@ projects[captcha][version] = "1.0-beta2"
 
 projects[hidden_captcha][version] = "1.0"
 
+projects[file_icons][download][type] = "git"
+projects[file_icons][download][url] = "http://github.com/koosh/file_icons.git"
+projects[file_icons][version] = "1.0-beta1"
+projects[file_icons][type] = "module"
+
 ; CT Core
 projects[cmtls][download][type] = "git"
 projects[cmtls][download][url] = "http://github.com/communitytools/Community-Tools-Core.git"
