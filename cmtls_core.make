@@ -97,6 +97,14 @@ projects[captcha][version] = "1.0-beta2"
 
 projects[hidden_captcha][version] = "1.0"
 
+projects[openlayers][version] = "2.0-beta1"
+
+projects[addressfield][version] = "1.0-beta3"
+
+projects[geofield][version] = "1.1"
+
+projects[geophp][version] = "1.7"
+
 projects[file_icons][download][type] = "git"
 projects[file_icons][download][url] = "http://github.com/koosh/file_icons.git"
 projects[file_icons][version] = "1.0-beta1"
