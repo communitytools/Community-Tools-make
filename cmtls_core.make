@@ -20,10 +20,6 @@ projects[context][version] = "3.0-beta4"
 
 projects[entity][version] = "1.0-rc2"
 
-projects[gmap][version] = "1.x-dev"
-
-projects[location][version] = "3.x-dev"
-
 projects[google_analytics][version] = "1.2"
 
 projects[references][version] = "2.0"
