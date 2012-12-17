@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.16"
+projects[drupal][version] = "7.17"
 
 ; Modules
 
@@ -24,7 +24,7 @@ projects[google_analytics][version] = "1.2"
 
 projects[references][version] = "2.0"
 
-projects[og][version] = "1.4"
+projects[og][version] = "1.5"
 
 projects[og_node_link][version] = "1.0"
 
@@ -113,8 +113,8 @@ projects[file_icons][type] = "module"
 ; CT Core
 projects[cmtls][download][type] = "git"
 projects[cmtls][download][url] = "http://github.com/communitytools/Community-Tools-Core.git"
-projects[cmtls][download][tag] = "7.x-2.0-beta1"
-projects[cmtls][version] = "2.0-beta1"
+projects[cmtls][download][tag] = "7.x-2.0-beta2"
+projects[cmtls][version] = "2.0-beta2"
 projects[cmtls][type] = "module"
 
 ; Themes
@@ -123,8 +123,8 @@ projects[omega][version] = "3.1"
 ; CT theme
 projects[cmtls_base][download][type] = "git"
 projects[cmtls_base][download][url] = "http://github.com/communitytools/Community-Tools-Base-theme.git"
-projects[cmtls_base][download][tag] = "7.x-2.0-beta1"
-projects[cmtls_base][version] = "2.0-beta1"
+projects[cmtls_base][download][tag] = "7.x-2.0-beta2"
+projects[cmtls_base][version] = "2.0-beta2"
 projects[cmtls_base][type] = "theme"
 
 ; Libraries
