@@ -63,9 +63,7 @@ projects[media_vimeo][version] = "1.0-beta5"
 
 projects[ds][version] = "1.5"
 
-projects[fb][version] = "3.x-dev"
-projects[fb][download][type] = "git"
-projects[fb][revision] = "8f23b20"
+projects[fb][version] = "3.3-beta5"
 projects[fb][patch][captcha-for-registration][url] = "http://drupal.org/files/fb_captcha-1525116-5.patch"
 
 projects[module_filter][version] = "1.6"
