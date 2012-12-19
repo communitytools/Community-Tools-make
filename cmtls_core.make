@@ -106,6 +106,10 @@ projects[geofield][version] = "1.1"
 
 projects[geophp][version] = "1.7"
 
+projects[timeago][version] = "2.1"
+
+projects[libraries][version] = "2.0"
+
 projects[file_icons][download][type] = "git"
 projects[file_icons][download][url] = "http://github.com/koosh/file_icons.git"
 projects[file_icons][version] = "1.0-beta1"
@@ -134,3 +138,6 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 
 libraries[facebook-php-sdk][download][type] = "file"
 libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/php-sdk/tarball/v3.1.1"
+
+libraries[timeago][download][type] = "file"
+libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"
