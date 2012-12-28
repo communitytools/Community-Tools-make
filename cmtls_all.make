@@ -8,6 +8,9 @@ projects[cmtls_profile][download][tag] = "7.x-2.0-beta2"
 projects[cmtls_profile][version] = "2.0-beta2"
 projects[cmtls_profile][type] = "profile"
 
+; Disable Drupal Core profiles
+projects[drupal][patch][drupal.disable-profiles.patch] = http://drupal.org/files/spark-install-1780598-5.patch
+
 ; CT apps
 
 ; Posts
