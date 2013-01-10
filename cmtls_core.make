@@ -118,8 +118,8 @@ projects[file_icons][type] = "module"
 ; CT Core
 projects[cmtls][download][type] = "git"
 projects[cmtls][download][url] = "http://github.com/communitytools/Community-Tools-Core.git"
-projects[cmtls][download][tag] = "7.x-2.0-beta2"
-projects[cmtls][version] = "2.0-beta2"
+projects[cmtls][download][tag] = "7.x-2.0-beta3"
+projects[cmtls][version] = "2.0-beta3"
 projects[cmtls][type] = "module"
 
 ; Themes
@@ -128,8 +128,8 @@ projects[omega][version] = "3.1"
 ; CT theme
 projects[cmtls_base][download][type] = "git"
 projects[cmtls_base][download][url] = "http://github.com/communitytools/Community-Tools-Base-theme.git"
-projects[cmtls_base][download][tag] = "7.x-2.0-beta2"
-projects[cmtls_base][version] = "2.0-beta2"
+projects[cmtls_base][download][tag] = "7.x-2.0-beta3"
+projects[cmtls_base][version] = "2.0-beta3"
 projects[cmtls_base][type] = "theme"
 
 ; Libraries
