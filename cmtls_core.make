@@ -106,6 +106,7 @@ projects[geofield][version] = "1.1"
 projects[geophp][version] = "1.7"
 
 projects[timeago][version] = "2.1"
+projects[timeago][patch][timeago.wrong-file-include-order.patch][url] = "http://drupal.org/files/timeago-wrong-file-include-order-1832550-4.patch"
 
 projects[libraries][version] = "2.0"
 
