@@ -49,7 +49,7 @@ projects[transliteration][version] = "3.0"
 
 projects[redirect][version] = "1.0-beta4"
 
-projects[views][version] = "3.3"
+projects[views][version] = "3.5"
 
 projects[webform][version] = "3.17"
 
@@ -96,7 +96,8 @@ projects[captcha][version] = "1.0-beta2"
 
 projects[hidden_captcha][version] = "1.0"
 
-projects[openlayers][version] = "2.0-beta1"
+projects[openlayers][version] = "2.0-beta3"
+projects[openlayers][patch][blocks-visible-with-no-features][url] = "http://drupal.org/files/openlayers_views-block-visibility-768294-29.patch"
 
 projects[addressfield][version] = "1.0-beta3"
 
