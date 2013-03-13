@@ -1,5 +1,5 @@
 ; CT Core
-includes[remote] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.0-beta3/cmtls_all.make"
+includes[remote] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.0-beta3/cmtls_core.make"
 
 ; CT profile
 projects[cmtls_profile][download][type] = "git"
