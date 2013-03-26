@@ -37,9 +37,9 @@ projects[panels][version] = "3.2"
 projects[cache_actions][version] = "2.0-alpha4"
 
 projects[rules][version] = "2.2"
-projects[rules][patch][rules.schema-default.patch][url] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.x/rules.schema-default.patch"
-projects[rules][patch][rules.variable-substitution-in-direct-input-mode.patch][url] = "http://drupal.org/files/1547160-9-rules-variables-direct-input.patch"
-projects[rules][patch][rules.token-evaluator-handles-empty-values.patch][url] = "http://drupal.org/files/rules-token-evaluator-handles-empty-values-1559844-2c.patch"
+projects[rules][patch][] = "http://drupal.org/files/rules-schema-fix-1952170-1.patch"
+projects[rules][patch][] = "http://drupal.org/files/1547160-9-rules-variables-direct-input.patch"
+projects[rules][patch][] = "http://drupal.org/files/rules-token-evaluator-handles-empty-values-1559844-2c.patch"
 
 projects[realname][version] = "1.0-rc2"
 
@@ -64,7 +64,7 @@ projects[media_vimeo][version] = "1.0-beta5"
 projects[ds][version] = "1.5"
 
 projects[fb][version] = "3.3-beta5"
-projects[fb][patch][captcha-for-registration][url] = "http://drupal.org/files/fb_captcha-1525116-5.patch"
+projects[fb][patch][] = "http://drupal.org/files/fb_captcha-1525116-5.patch"
 
 projects[module_filter][version] = "1.6"
 
@@ -97,7 +97,7 @@ projects[captcha][version] = "1.0-beta2"
 projects[hidden_captcha][version] = "1.0"
 
 projects[openlayers][version] = "2.0-beta3"
-projects[openlayers][patch][blocks-visible-with-no-features][url] = "http://drupal.org/files/openlayers_views-block-visibility-768294-29.patch"
+projects[openlayers][patch][] = "http://drupal.org/files/openlayers_views-block-visibility-768294-29.patch"
 
 projects[addressfield][version] = "1.0-beta3"
 
@@ -106,7 +106,7 @@ projects[geofield][version] = "1.1"
 projects[geophp][version] = "1.7"
 
 projects[timeago][version] = "2.1"
-projects[timeago][patch][timeago.wrong-file-include-order.patch][url] = "http://drupal.org/files/timeago-wrong-file-include-order-1832550-4.patch"
+projects[timeago][patch][] = "http://drupal.org/files/timeago-wrong-file-include-order-1832550-4.patch"
 
 projects[libraries][version] = "2.0"
 
@@ -137,7 +137,7 @@ libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
 
 libraries[facebook-php-sdk][download][type] = "file"
-libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/php-sdk/tarball/v3.1.1"
+libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/facebook-php-sdk/archive/v3.1.1.tar.gz"
 
 libraries[timeago][download][type] = "file"
 libraries[timeago][download][url] = "http://timeago.yarp.com/jquery.timeago.js"

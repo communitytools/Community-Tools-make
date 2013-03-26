@@ -1,5 +1,5 @@
 ; CT Core
-includes[remote] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.0-beta3/cmtls_core.make"
+includes[remote] = "https://raw.github.com/communitytools/Community-Tools-make/7.x-2.x/cmtls_core.make"
 
 ; CT profile
 projects[cmtls_profile][download][type] = "git"
@@ -42,7 +42,7 @@ projects[cmtls_map][type] = "module"
 projects[media_browser_plus][version] = "1.0-beta3"
 
 projects[media_gallery][version] = "1.0-beta8"
-projects[media_gallery][patch][all-files-download][url] = "http://drupal.org/files/media_gallery-all_files_download-1817552-1.patch"
+projects[media_gallery][patch][] = "http://drupal.org/files/media_gallery-all_files_download-1817552-1.patch"
 
 projects[multiform][version] = "1.0"
 
@@ -55,7 +55,7 @@ projects[cmtls_media][version] = "2.0-beta3"
 projects[cmtls_media][type] = "module"
 
 libraries[colorbox][download][type] = "file"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/zipball/v1.3.16"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.3.21.tar.gz"
 
 libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1_dev.zip"
