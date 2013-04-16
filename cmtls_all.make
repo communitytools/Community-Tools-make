@@ -21,7 +21,7 @@ projects[cmtls_post][version] = "2.0-beta3"
 projects[cmtls_post][type] = "module"
 
 ; Events
-projects[calendar][version] = "3.2"
+projects[calendar][version] = "3.4"
 
 projects[date][version] = "2.5"
 
