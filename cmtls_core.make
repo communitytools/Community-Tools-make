@@ -105,8 +105,10 @@ projects[geofield][version] = "1.1"
 
 projects[geophp][version] = "1.7"
 
-projects[timeago][version] = "2.1"
-projects[timeago][patch][] = "http://drupal.org/files/timeago-wrong-file-include-order-1832550-4.patch"
+projects[timeago][version] = "2.x-dev"
+projects[timeago][download][type] = "git"
+projects[timeago][download][url] = "http://git.drupal.org/project/timeago.git"
+projects[timeago][download][revision] = "768ea66541171ce254bd426cca4f6f885905521c"
 
 projects[libraries][version] = "2.0"
 
