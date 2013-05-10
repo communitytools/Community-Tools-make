@@ -14,6 +14,8 @@ projects[drupal][patch][drupal.disable-profiles.patch] = http://drupal.org/files
 ; CT apps
 
 ; Posts
+projects[views_hacks][version] = "1.0-alpha2"
+
 projects[cmtls_post][download][type] = "git"
 projects[cmtls_post][download][url] = "http://github.com/communitytools/Community-Tools-Post.git"
 projects[cmtls_post][download][tag] = "7.x-2.0-beta3"
