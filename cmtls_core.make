@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.22"
+projects[drupal][version] = "7.23"
 
 ; Modules
 
@@ -10,15 +10,15 @@ projects[advanced_help][version]  = "1.0"
 
 projects[admin_menu][version]  = "3.0-rc2"
 
-projects[ajax_comments][version] = "1.0-alpha1"
+projects[ajax_comments][version] = "1.0-alpha2"
 
-projects[ctools][version] = "1.0"
+projects[ctools][version] = "1.3"
 
 projects[devel][version] = "1.2"
 
-projects[context][version] = "3.0-beta4"
+projects[context][version] = "3.1"
 
-projects[entity][version] = "1.0-rc2"
+projects[entity][version] = "1.2"
 
 projects[google_analytics][version] = "1.2"
 
@@ -43,13 +43,13 @@ projects[rules][patch][] = "http://drupal.org/files/rules-token-evaluator-handle
 
 projects[realname][version] = "1.0-rc2"
 
-projects[token][version] = "1.0"
+projects[token][version] = "1.5"
 
 projects[transliteration][version] = "3.0"
 
 projects[redirect][version] = "1.0-beta4"
 
-projects[views][version] = "3.5"
+projects[views][version] = "3.7"
 
 projects[webform][version] = "3.17"
 
@@ -61,7 +61,7 @@ projects[media_youtube][version] = "1.0-beta3"
 
 projects[media_vimeo][version] = "1.0-beta5"
 
-projects[ds][version] = "1.5"
+projects[ds][version] = "1.9"
 
 projects[fb][version] = "3.3-beta5"
 projects[fb][patch][] = "http://drupal.org/files/fb_captcha-1525116-5.patch"
@@ -105,21 +105,18 @@ projects[geofield][version] = "1.1"
 
 projects[geophp][version] = "1.7"
 
-projects[timeago][version] = "2.x-dev"
-projects[timeago][download][type] = "git"
-projects[timeago][download][url] = "http://git.drupal.org/project/timeago.git"
-projects[timeago][download][revision] = "768ea66541171ce254bd426cca4f6f885905521c"
+projects[timeago][version] = "2.2"
 
 projects[libraries][version] = "2.0"
 
 projects[file_icons][download][type] = "git"
-projects[file_icons][download][url] = "http://github.com/koosh/file_icons.git"
+projects[file_icons][download][url] = "https://github.com/koosh/file_icons.git"
 projects[file_icons][version] = "1.0-beta1"
 projects[file_icons][type] = "module"
 
 ; CT Core
 projects[cmtls][download][type] = "git"
-projects[cmtls][download][url] = "http://github.com/communitytools/Community-Tools-Core.git"
+projects[cmtls][download][url] = "https://github.com/communitytools/Community-Tools-Core.git"
 projects[cmtls][type] = "module"
 
 ; Themes
@@ -127,7 +124,7 @@ projects[omega][version] = "3.1"
 
 ; CT theme
 projects[cmtls_base][download][type] = "git"
-projects[cmtls_base][download][url] = "http://github.com/communitytools/Community-Tools-Base-theme.git"
+projects[cmtls_base][download][url] = "https://github.com/communitytools/Community-Tools-Base-theme.git"
 projects[cmtls_base][type] = "theme"
 
 ; Libraries

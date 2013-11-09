@@ -3,7 +3,7 @@ includes[remote] = "https://raw.github.com/communitytools/Community-Tools-make/d
 
 ; CT profile
 projects[cmtls_profile][download][type] = "git"
-projects[cmtls_profile][download][url] = "http://github.com/communitytools/Community-Tools-Profile.git"
+projects[cmtls_profile][download][url] = "https://github.com/communitytools/Community-Tools-Profile.git"
 projects[cmtls_profile][type] = "profile"
 
 ; Disable Drupal Core profiles
@@ -15,7 +15,7 @@ projects[drupal][patch][drupal.disable-profiles.patch] = http://drupal.org/files
 projects[views_hacks][version] = "1.0-alpha2"
 
 projects[cmtls_post][download][type] = "git"
-projects[cmtls_post][download][url] = "http://github.com/communitytools/Community-Tools-Post.git"
+projects[cmtls_post][download][url] = "https://github.com/communitytools/Community-Tools-Post.git"
 projects[cmtls_post][type] = "module"
 
 ; Events
@@ -24,12 +24,12 @@ projects[calendar][version] = "3.4"
 projects[date][version] = "2.5"
 
 projects[cmtls_event][download][type] = "git"
-projects[cmtls_event][download][url] = "http://github.com/communitytools/Community-Tools-Event.git"
+projects[cmtls_event][download][url] = "https://github.com/communitytools/Community-Tools-Event.git"
 projects[cmtls_event][type] = "module"
 
 ; Map
 projects[cmtls_map][download][type] = "git"
-projects[cmtls_map][download][url] = "http://github.com/communitytools/Community-Tools-Map.git"
+projects[cmtls_map][download][url] = "https://github.com/communitytools/Community-Tools-Map.git"
 projects[cmtls_map][type] = "module"
 
 ; Media
@@ -40,10 +40,10 @@ projects[media_gallery][patch][] = "http://drupal.org/files/media_gallery-all_fi
 
 projects[multiform][version] = "1.0"
 
-projects[plupload][version] = "1.0-rc1"
+projects[plupload][version] = "1.4"
 
 projects[cmtls_media][download][type] = "git"
-projects[cmtls_media][download][url] = "http://github.com/communitytools/Community-Tools-Media.git"
+projects[cmtls_media][download][url] = "https://github.com/communitytools/Community-Tools-Media.git"
 projects[cmtls_media][type] = "module"
 
 libraries[colorbox][download][type] = "file"
